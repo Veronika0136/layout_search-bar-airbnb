@@ -15,9 +15,6 @@
   font-display: swap;
 }
 
-/* * {
-  box-sizing: border-box;
-} */
 .page {
   box-sizing: border-box;
 }
@@ -32,17 +29,13 @@
 .search {
   width: 100%;
   box-sizing: inherit;
-}
-
-.search:first-child {
   margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 .search__input {
   width: 100%;
   font-family: inherit;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 100%;
   border: 1px solid rgba(225, 231, 237, 1);
   box-shadow: 0 1px 8px 0 rgba(61, 78, 97, 0.1);
@@ -59,7 +52,7 @@
 .search__input--big {
   height: 70px;
   padding-left: 62px;
-  padding-top: 25px;
+  padding-top: 26px;
   padding-bottom: 23px;
   background-position: 26px center;
   background-size: 19px 19px;
